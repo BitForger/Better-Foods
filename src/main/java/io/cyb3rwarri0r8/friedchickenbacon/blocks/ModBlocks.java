@@ -1,6 +1,5 @@
 package io.cyb3rwarri0r8.friedchickenbacon.blocks;
 
-import io.cyb3rwarri0r8.friedchickenbacon.help.ModBlockCrops;
 import io.cyb3rwarri0r8.friedchickenbacon.help.RegisterHelper;
 import io.cyb3rwarri0r8.friedchickenbacon.main;
 import net.minecraft.block.Block;
@@ -33,7 +32,7 @@ public class ModBlocks
         oilPress_active = new BlockOilPress(true).setBlockName("oilPressActive");
         RegisterHelper.registerBlock(oilPress_active);
 
-        peanutCrop = new ModBlockCrops();
+        peanutCrop = new BlockPeanuts();
         RegisterHelper.registerBlock(peanutCrop);
 
     }

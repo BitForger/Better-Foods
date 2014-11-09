@@ -1,5 +1,8 @@
 package io.cyb3rwarri0r8.friedchickenbacon.items;
 
+import io.cyb3rwarri0r8.friedchickenbacon.blocks.ModBlocks;
+import io.cyb3rwarri0r8.friedchickenbacon.help.RegisterHelper;
+import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 
 /**
@@ -12,7 +15,8 @@ public class ModItems {
     public static void loadItems()
     {
 
-        peanut = new ItemPeanut(3, 3, false);
+        peanut = new ItemPeanut(3, 3, ModBlocks.peanutCrop, Blocks.farmland);
+        RegisterHelper.registerItem(peanut);
 
     }
 }

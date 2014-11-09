@@ -45,9 +45,7 @@ public class ModBlockCrops extends BlockBush implements IGrowable {
     public void incrementGrowStage(World parWorld, Random parRand, int parX, int parY, int parZ)
 
     {
-        int growStage = parWorld.getBlockMetadata(parX, parY, parZ) +
-
-                MathHelper.getRandomIntegerInRange(parRand, 2, 5);
+        int growStage = parWorld.getBlockMetadata(parX, parY, parZ) + MathHelper.getRandomIntegerInRange(parRand, 2, 5);
 
         if (growStage > maxGrowthStage)
         {
