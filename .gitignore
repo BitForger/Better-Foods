@@ -1,0 +1,13 @@
+#.gradle/
+#build/
+
+*.txt
+
+
+gradlew.*
+
+*.iws
+*.ipr
+*.iml
+
+eclipse/

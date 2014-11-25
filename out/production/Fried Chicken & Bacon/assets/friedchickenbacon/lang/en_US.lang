@@ -1,0 +1,12 @@
+item.rawBacon.name=Raw Bacon
+item.cookedBacon.name=Cooked Bacon
+
+itemGroup.friedchickenbacon=Fried Chicken & Bacon
+
+tile.peanutCrops.name=Peanuts Plant
+
+item.peanut.name=Peanut
+
+
+tile.deepFryer_idle.name=Deep Fryer
+tile.oilPress_idle.name=Oil Press
