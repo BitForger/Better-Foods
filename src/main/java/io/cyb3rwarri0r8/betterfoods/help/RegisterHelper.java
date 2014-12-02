@@ -1,7 +1,27 @@
 package io.cyb3rwarri0r8.betterfoods.help;
+/* 
+* Better Foods - A Minecraft Modification
+* Copyright (C) 2014 Cyb3rWarri0r8
+*
+* This program is free software: you can redistribute it and/or modify 
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
+import io.cyb3rwarri0r8.betterfoods.help.recipes.DeepFryerRecipes;
+import io.cyb3rwarri0r8.betterfoods.help.recipes.OilPressRecipes;
+import io.cyb3rwarri0r8.betterfoods.main;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityList;
 import net.minecraft.item.Item;
@@ -9,9 +29,6 @@ import net.minecraft.item.ItemStack;
 
 import java.util.Random;
 
-/**
- * Created by noah on 10/5/14.
- */
 public class RegisterHelper {
     public static void registerBlock(Block block)
     {
@@ -132,7 +149,7 @@ public class RegisterHelper {
         int secondaryColor = rand.nextInt() * 16777215;
 
         EntityRegistry.registerGlobalEntityID(entityClass, name, entityID);
-        EntityRegistry.registerModEntity(entityClass, name, entityID, io.cyb3rwarri0r8.betterfoods.main.instance, 64, 1, true);
+        EntityRegistry.registerModEntity(entityClass, name, entityID, main.INSTANCE, 64, 1, true);
         EntityList.entityEggs.put(Integer.valueOf(entityID), new EntityList.EntityEggInfo(entityID, primaryColor, secondaryColor));
 
     }

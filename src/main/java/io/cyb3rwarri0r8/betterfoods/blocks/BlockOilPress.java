@@ -1,11 +1,27 @@
 package io.cyb3rwarri0r8.betterfoods.blocks;
+/* 
+* Better Foods - A Minecraft Modification
+* Copyright (C) 2014 Cyb3rWarri0r8
+*
+* This program is free software: you can redistribute it and/or modify 
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import io.cyb3rwarri0r8.betterfoods.entity.TileEntityOilPress;
 import io.cyb3rwarri0r8.betterfoods.help.Reference;
 import io.cyb3rwarri0r8.betterfoods.main;
-import io.cyb3rwarri0r8.betterfoods.tileentity.TileEntityDeepFryer;
-import io.cyb3rwarri0r8.betterfoods.tileentity.TileEntityOilPress;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -23,11 +39,7 @@ import net.minecraft.world.World;
 
 import java.util.Random;
 
-/**
- * Created by noah on 10/8/14.
- */
-public class BlockOilPress extends BlockContainer{
-
+public class BlockOilPress extends BlockContainer {
     @SideOnly(Side.CLIENT)
     private IIcon top;
 
@@ -70,7 +82,7 @@ public class BlockOilPress extends BlockContainer{
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int par6, float par7, float par8, float par9)
     {
-        player.openGui(main.instance, 1, world, x, y, z);
+        player.openGui(main.INSTANCE, 1, world, x, y, z);
         return true;
     }
 
@@ -146,7 +158,7 @@ public class BlockOilPress extends BlockContainer{
         }
         if (itemStack.hasDisplayName())
         {
-            ((TileEntityDeepFryer) world.getTileEntity(x, y, z)).furnaceName(itemStack.getDisplayName());
+            ((TileEntityOilPress) world.getTileEntity(x, y, z)).furnaceName(itemStack.getDisplayName());
         }
     }
 

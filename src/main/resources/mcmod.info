@@ -1,22 +1,16 @@
 [
 {
   "modid": "betterfoods",
-  "name": "Better food mod",
-  "description": "A Complex food mod for minecraft",
-  "version": "v0.2a",
+  "name": "Better Foods Mod",
+  "description": "A modification for minecraft that aims to make food creation realistic with complex foods",
+  "version": "0.2",
   "mcversion": "1.7.10",
-  "url": "http://cyb3rwarri0r8.github.io/betterfoods/",
+  "url": "http://cyb3rwarri0r8.github.io/Better-Foods",
   "updateUrl": "",
-  "authorList": [
-  "Cyb3rwarri0r8"
-  ],
-  "credits": "The Modding community for helping me when I run into problems and the Minecraft community for giving me suggestions on what to add to the mod.",
+  "authorList": ["Cyb3rwarri0r8"],
+  "credits": "The modding community for helping me learn what I need to know to make mods.",
   "logoFile": "",
-  "screenshots": [
-  ],
-  "parent":"",
-  "dependencies": [
-  ]
+  "screenshots": [],
+  "dependencies": []
 }
 ]
-

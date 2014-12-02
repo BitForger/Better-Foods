@@ -1,20 +1,34 @@
 package io.cyb3rwarri0r8.betterfoods.client.gui;
+/* 
+* Better Foods - A Minecraft Modification
+* Copyright (C) 2014 Cyb3rWarri0r8
+*
+* This program is free software: you can redistribute it and/or modify 
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 import io.cyb3rwarri0r8.betterfoods.client.container.ContainerDeepFryer;
+import io.cyb3rwarri0r8.betterfoods.entity.TileEntityDeepFryer;
 import io.cyb3rwarri0r8.betterfoods.help.Reference;
-import io.cyb3rwarri0r8.betterfoods.tileentity.TileEntityDeepFryer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.util.ResourceLocation;
 import org.lwjgl.opengl.GL11;
 
-/**
- * Created by noah on 10/7/14.
- */
-public class GuiFryer extends GuiContainer {
-
-    private static final ResourceLocation fryerGuiTextures = new ResourceLocation(Reference.MODID + ":" + "assets/betterfoods/textures/gui/container/fryer.png");
+public class GuiFryer extends GuiContainer
+{
+    private static final ResourceLocation fryerGuiTextures = new ResourceLocation(Reference.MODID + ":" + "textures/gui/container/fryer.png");
     private TileEntityDeepFryer entityDeepFryer;
 
 

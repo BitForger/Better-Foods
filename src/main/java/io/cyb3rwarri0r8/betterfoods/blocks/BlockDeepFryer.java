@@ -1,10 +1,27 @@
 package io.cyb3rwarri0r8.betterfoods.blocks;
+/* 
+* Better Foods - A Minecraft Modification
+* Copyright (C) 2014 Cyb3rWarri0r8
+*
+* This program is free software: you can redistribute it and/or modify 
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import io.cyb3rwarri0r8.betterfoods.entity.TileEntityDeepFryer;
 import io.cyb3rwarri0r8.betterfoods.help.Reference;
 import io.cyb3rwarri0r8.betterfoods.main;
-import io.cyb3rwarri0r8.betterfoods.tileentity.TileEntityDeepFryer;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
@@ -22,11 +39,7 @@ import net.minecraft.world.World;
 
 import java.util.Random;
 
-/**
- * Created by noah on 10/5/14.
- */
 public class BlockDeepFryer extends BlockContainer {
-
     @SideOnly(Side.CLIENT)
     private IIcon top;
 
@@ -70,7 +83,7 @@ public class BlockDeepFryer extends BlockContainer {
 
     public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int par6, float par7, float par8, float par9)
     {
-        player.openGui(main.instance, 0, world, x, y, z);
+        player.openGui(main.INSTANCE, 0, world, x, y, z);
         return true;
     }
 
@@ -267,6 +280,4 @@ public class BlockDeepFryer extends BlockContainer {
     {
         return new TileEntityDeepFryer();
     }
-
-
 }

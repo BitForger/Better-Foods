@@ -1,9 +1,13 @@
 item.rawBacon.name=Raw Bacon
 item.cookedBacon.name=Cooked Bacon
 
-itemGroup.friedchickenbacon=Fried Chicken & Bacon
+itemGroup.betterfoods=Better Foods Mod
 
-tile.peanutCrops.name=Peanuts Plant
+tile.peanutCrops_0.name=Peanuts Plant
+tile.peanutCrops_stage0.name=Peanuts Plant
+tile.peanutCrops_stage1.name=Peanuts Plant
+tile.peanutCrops_stage2.name=Peanuts Plant
+tile.peanutCrops_stage3.name=Peanuts Plant
 
 item.peanut.name=Peanut
 

@@ -1,5 +1,5 @@
-package io.cyb3rwarri0r8.betterfoods.help;
-/*
+package io.cyb3rwarri0r8.betterfoods.help.proxy;
+/* 
 * Better Foods - A Minecraft Modification
 * Copyright (C) 2014 Cyb3rWarri0r8
 *
@@ -17,9 +17,16 @@ package io.cyb3rwarri0r8.betterfoods.help;
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-public class Reference {
-    public static final String MODID = "betterfoods";
-    public static final String VERSION = "0.2";
-    public static final String PROXYCLIENTCLASS = "io.cyb3rwarri0r8.betterfoods.help.proxy.proxyClient";
-    public static final String PROXYCOMMONCLASS = "io.cyb3rwarri0r8.betterfoods.help.proxy.proxyCommon";
+public class proxyClient extends proxyCommon {
+    @Override
+    public void registerRenderers()
+    {
+
+    }
+
+    @Override
+    public void registerSounds()
+    {
+
+    }
 }
