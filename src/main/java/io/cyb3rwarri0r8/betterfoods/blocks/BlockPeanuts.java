@@ -32,7 +32,7 @@ public class BlockPeanuts extends ModBlockCrops {
     public BlockPeanuts()
     {
         setBlockName("peanutCrops");
-        /*setBlockTextureName(Reference.MODID + ":" + "peanutCrops_0");*/
+        setBlockTextureName(Reference.MODID + ":" + "peanutCrops_0");
 
     }
 

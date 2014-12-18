@@ -1,8 +1,8 @@
-[23:35:33] [main/INFO]: Setting user: Player823
-[23:35:36] [Client thread/INFO]: LWJGL Version: 2.9.1
-[23:35:48] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Foods Mod
-[23:35:50] [Sound Library Loader/INFO]: Sound engine started
-[23:35:51] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_3.png
+[22:20:57] [main/INFO]: Setting user: Player702
+[22:21:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:21:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Foods Mod
+[22:21:33] [Sound Library Loader/INFO]: Sound engine started
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_3.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -27,7 +27,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_3.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:51] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_on.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_on.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_on.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -52,7 +52,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_on.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:51] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_2.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_2.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -77,7 +77,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_2.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:51] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_0.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_0.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -102,7 +102,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_0.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:51] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_1.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_1.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -127,7 +127,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_1.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_side.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_side.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -152,7 +152,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_side.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_side.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_side.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -177,7 +177,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_side.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_on.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_on.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_on.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -202,7 +202,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_on.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_off.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_off.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_off.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -227,7 +227,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_off.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_top.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_top.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -252,7 +252,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_top.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_top.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_top.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -277,7 +277,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_top.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:52] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_off.png
+[22:21:35] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_off.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_off.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -302,8 +302,8 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_off.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:53] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:35:53] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/items/peanut.png
+[22:21:36] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:21:37] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/items/peanut.png
 java.io.FileNotFoundException: betterfoods:textures/items/peanut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -328,9 +328,9 @@ java.io.FileNotFoundException: betterfoods:textures/items/peanut.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:53] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:35:53] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Foods Mod
-[23:35:53] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/items/peanut.png
+[22:21:37] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:21:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Better Foods Mod
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/items/peanut.png
 java.io.FileNotFoundException: betterfoods:textures/items/peanut.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -358,8 +358,8 @@ java.io.FileNotFoundException: betterfoods:textures/items/peanut.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_3.png
+[22:21:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_3.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_3.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -387,7 +387,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_3.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_on.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_on.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_on.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -415,7 +415,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_on.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_2.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_2.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_2.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -443,7 +443,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_2.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_0.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_0.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_0.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -471,7 +471,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_0.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_1.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/peanutCrops_1.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_1.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -499,7 +499,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/peanutCrops_1.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_side.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_side.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -527,7 +527,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_side.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_side.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_side.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_side.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -555,7 +555,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_side.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_on.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_on.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_on.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -583,7 +583,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_on.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_off.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryerFront_off.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_off.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -611,7 +611,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryerFront_off.pn
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_top.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/deepFryer_top.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -639,7 +639,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/deepFryer_top.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_top.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPress_top.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_top.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -667,7 +667,7 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPress_top.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_off.png
+[22:21:38] [Client thread/ERROR]: Using missing texture, unable to load betterfoods:textures/blocks/oilPressFront_off.png
 java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_off.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -695,31 +695,28 @@ java.io.FileNotFoundException: betterfoods:textures/blocks/oilPressFront_off.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_55]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_55]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[23:35:54] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[23:35:55] [Sound Library Loader/INFO]: Sound engine started
-[23:35:56] [Client thread/ERROR]: ########## GL ERROR ##########
-[23:35:56] [Client thread/ERROR]: @ Post startup
-[23:35:56] [Client thread/ERROR]: 1281: Invalid value
-[23:36:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[23:36:02] [Server thread/INFO]: Generating keypair
-[23:36:03] [Server thread/INFO]: Preparing start region for level 0
-[23:36:04] [Server thread/INFO]: Preparing spawn area: 74%
-[23:36:05] [Server thread/INFO]: Changing view distance to 2, from 10
-[23:36:05] [Server thread/INFO]: Player823[local:E:a6d2a97d] logged in with entity id 315 at (569.5651287065963, 4.0, -1308.1076420069971)
-[23:36:05] [Server thread/INFO]: Player823 joined the game
-[23:36:06] [Server thread/INFO]: Saving and pausing game...
-[23:36:06] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:36:06] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:36:06] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:36:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6046ms behind, skipping 120 tick(s)
-[23:36:14] [Server thread/INFO]: Saving and pausing game...
-[23:36:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:36:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:36:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:36:15] [Server thread/INFO]: Stopping server
-[23:36:15] [Server thread/INFO]: Saving players
-[23:36:15] [Server thread/INFO]: Saving worlds
-[23:36:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[23:36:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[23:36:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[23:36:17] [Client thread/INFO]: Stopping!
+[22:21:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[22:21:40] [Sound Library Loader/INFO]: Sound engine started
+[22:21:41] [Client thread/ERROR]: ########## GL ERROR ##########
+[22:21:41] [Client thread/ERROR]: @ Post startup
+[22:21:41] [Client thread/ERROR]: 1281: Invalid value
+[22:24:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:24:24] [Server thread/INFO]: Generating keypair
+[22:24:26] [Server thread/INFO]: Preparing start region for level 0
+[22:24:27] [Server thread/INFO]: Preparing spawn area: 18%
+[22:24:28] [Server thread/INFO]: Preparing spawn area: 82%
+[22:24:28] [Server thread/INFO]: Changing view distance to 2, from 10
+[22:24:29] [Server thread/INFO]: Player702[local:E:a14a156d] logged in with entity id 315 at (569.5651287065963, 4.0, -1308.1076420069971)
+[22:24:29] [Server thread/INFO]: Player702 joined the game
+[22:24:32] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3109ms behind, skipping 62 tick(s)
+[22:24:34] [Server thread/INFO]: Saving and pausing game...
+[22:24:34] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:24:34] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:24:34] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:24:35] [Server thread/INFO]: Stopping server
+[22:24:35] [Server thread/INFO]: Saving players
+[22:24:35] [Server thread/INFO]: Saving worlds
+[22:24:35] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[22:24:35] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[22:24:35] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[22:24:39] [Client thread/INFO]: Stopping!
