@@ -21,7 +21,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.cyb3rwarri0r8.betterfoods.blocks.BlockDeepFryer;
-import io.cyb3rwarri0r8.betterfoods.help.recipes.DeepFryerRecipes;
+import io.cyb3rwarri0r8.betterfoods.lib.recipes.DeepFryerRecipes;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;

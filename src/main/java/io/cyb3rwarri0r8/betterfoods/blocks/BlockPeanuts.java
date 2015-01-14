@@ -19,8 +19,8 @@ package io.cyb3rwarri0r8.betterfoods.blocks;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
-import io.cyb3rwarri0r8.betterfoods.help.Reference;
-import io.cyb3rwarri0r8.betterfoods.help.cropshelper.ModBlockCrops;
+import io.cyb3rwarri0r8.betterfoods.lib.Reference;
+import io.cyb3rwarri0r8.betterfoods.lib.cropshelper.ModBlockCrops;
 import io.cyb3rwarri0r8.betterfoods.items.ModItems;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
@@ -32,7 +32,7 @@ public class BlockPeanuts extends ModBlockCrops {
     public BlockPeanuts()
     {
         setBlockName("peanutCrops");
-        setBlockTextureName(Reference.MODID + ":" + "peanutCrops_0");
+        setBlockTextureName(Reference.MODID + ":" + getUnlocalizedName().substring(5));
 
     }
 

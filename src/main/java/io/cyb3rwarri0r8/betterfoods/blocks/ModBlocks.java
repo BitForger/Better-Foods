@@ -17,7 +17,7 @@ package io.cyb3rwarri0r8.betterfoods.blocks;
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import io.cyb3rwarri0r8.betterfoods.help.RegisterHelper;
+import io.cyb3rwarri0r8.betterfoods.lib.RegisterHelper;
 import io.cyb3rwarri0r8.betterfoods.main;
 import net.minecraft.block.Block;
 

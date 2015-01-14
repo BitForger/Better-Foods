@@ -1,4 +1,4 @@
-package io.cyb3rwarri0r8.betterfoods.help.seedshelper;
+package io.cyb3rwarri0r8.betterfoods.lib.seedshelper;
 /* 
 * Better Foods - A Minecraft Modification
 * Copyright (C) 2014 Cyb3rWarri0r8

@@ -20,7 +20,7 @@ package io.cyb3rwarri0r8.betterfoods.client.container;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.cyb3rwarri0r8.betterfoods.entity.TileEntityDeepFryer;
-import io.cyb3rwarri0r8.betterfoods.help.recipes.DeepFryerRecipes;
+import io.cyb3rwarri0r8.betterfoods.lib.recipes.DeepFryerRecipes;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;

@@ -62,7 +62,7 @@ processResources
     }
 }
 
-processResources.doLast {
+/*processResources.doLast {
 
     description 'Copies resource files to dir FML expects resourcePack to be'
 
@@ -99,4 +99,4 @@ processResources.doLast {
 
     }
 
-}
+}*/

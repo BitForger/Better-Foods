@@ -1,4 +1,4 @@
-package io.cyb3rwarri0r8.betterfoods.help.proxy;
+package io.cyb3rwarri0r8.betterfoods.lib.proxy;
 /* 
 * Better Foods - A Minecraft Modification
 * Copyright (C) 2014 Cyb3rWarri0r8
@@ -21,8 +21,8 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import io.cyb3rwarri0r8.betterfoods.entity.TileEntityDeepFryer;
 import io.cyb3rwarri0r8.betterfoods.entity.TileEntityOilPress;
-import io.cyb3rwarri0r8.betterfoods.help.Reference;
-import io.cyb3rwarri0r8.betterfoods.help.handlers.ModGuiHandler;
+import io.cyb3rwarri0r8.betterfoods.lib.Reference;
+import io.cyb3rwarri0r8.betterfoods.lib.handlers.ModGuiHandler;
 import io.cyb3rwarri0r8.betterfoods.main;
 
 public abstract class proxyCommon {

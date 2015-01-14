@@ -1,4 +1,4 @@
-package io.cyb3rwarri0r8.betterfoods.help;
+package io.cyb3rwarri0r8.betterfoods.lib;
 /* 
 * Better Foods - A Minecraft Modification
 * Copyright (C) 2014 Cyb3rWarri0r8
@@ -19,8 +19,8 @@ package io.cyb3rwarri0r8.betterfoods.help;
 
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
-import io.cyb3rwarri0r8.betterfoods.help.recipes.DeepFryerRecipes;
-import io.cyb3rwarri0r8.betterfoods.help.recipes.OilPressRecipes;
+import io.cyb3rwarri0r8.betterfoods.lib.recipes.DeepFryerRecipes;
+import io.cyb3rwarri0r8.betterfoods.lib.recipes.OilPressRecipes;
 import io.cyb3rwarri0r8.betterfoods.main;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityList;
@@ -32,14 +32,14 @@ import java.util.Random;
 public class RegisterHelper {
     public static void registerBlock(Block block)
     {
-        GameRegistry.registerBlock(block, Reference.MODID + " " + block.getUnlocalizedName().substring(5));
+        GameRegistry.registerBlock(block, Reference.MODID + ":" + block.getUnlocalizedName().substring(5));
     }
 
     // ********************************************************************************************
 
     public static void registerItem(Item item)
     {
-        GameRegistry.registerItem(item, Reference.MODID + " " + item.getUnlocalizedName().substring(5));
+        GameRegistry.registerItem(item, Reference.MODID + ":" + item.getUnlocalizedName().substring(5));
     }
 
     // ********************************************************************************************
@@ -48,48 +48,44 @@ public class RegisterHelper {
     {
         if (toolType == "pickaxe")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
+            GameRegistry.addRecipe(new ItemStack(item),
                     "XXX",
                     " Y ",
                     " Y ",
-                    'X', x, 'Y', y,
-            });
+                    'X', x, 'Y', y
+            );
         }
         else if (toolType == "axe")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
-                    "XX ",
-                    "XY ",
-                    " Y ",
-                    'X', x, 'Y', y,
-            });
+            GameRegistry.addRecipe(new ItemStack(item),
+                    "XX",
+                    "XY",
+                    " Y",
+                    'X', x, 'Y', y);
         }
         else if (toolType == "shovel")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
-                    " X ",
-                    " Y ",
-                    " Y ",
-                    'X', x, 'Y', y,
-            });
+            GameRegistry.addRecipe(new ItemStack(item),
+                    "X",
+                    "Y",
+                    "Y",
+                    'X', x, 'Y', y);
         }
         else if (toolType == "hoe")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
-                    "XX ",
-                    " Y ",
-                    " Y ",
-                    'X', x, 'Y', y,
-            });
+            GameRegistry.addRecipe(new ItemStack(item),
+                    "XY",
+                    " Y",
+                    " Y",
+                    'X', x, 'Y', y);
         }
         else if (toolType == "sword")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
-                    " X ",
-                    " X ",
-                    " Y ",
-                    'X', x, 'Y', y,
-            });
+            GameRegistry.addRecipe(new ItemStack(item),
+                    "X",
+                    "X",
+                    "Y",
+                    'X', x, 'Y', y);
         }
         else
         {
@@ -103,34 +99,33 @@ public class RegisterHelper {
     {
         if (armortype == "helmet")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
+            GameRegistry.addRecipe(new ItemStack(item),
                     "XXX",
                     "X X",
-                    'X', x
-            });
+                    'X', x);
         }else if (armortype == "chestplate")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
+            GameRegistry.addRecipe(new ItemStack(item),
                     "X X",
                     "XXX",
                     "XXX",
-                    'X', x,
-            });
+                    'X', x
+            );
         }else if (armortype == "leggings")
         {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
+            GameRegistry.addRecipe(new ItemStack(item),
                     "XXX",
-                    "X X",
-                    "X X",
-                    'X', x,
-            });
-        } else if (armortype == "boots")
-        {
-            GameRegistry.addRecipe(new ItemStack(item), new Object[]{
                     "X X",
                     "X X",
                     'X', x
-            });
+            );
+        } else if (armortype == "boots")
+        {
+            GameRegistry.addRecipe(new ItemStack(item),
+                    "X X",
+                    "X X",
+                    'X', x
+            );
         } else
         {
             System.out.println("Error: Invalid Armor type!");

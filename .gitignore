@@ -3,11 +3,14 @@
 
 *.txt
 
-
-gradlew.*
+*.log
 
 *.iws
 *.ipr
 *.iml
 
 eclipse/
+
+*.iml
+
+

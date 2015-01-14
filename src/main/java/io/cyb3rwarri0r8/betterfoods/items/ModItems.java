@@ -18,7 +18,7 @@ package io.cyb3rwarri0r8.betterfoods.items;
 */
 
 import io.cyb3rwarri0r8.betterfoods.blocks.ModBlocks;
-import io.cyb3rwarri0r8.betterfoods.help.RegisterHelper;
+import io.cyb3rwarri0r8.betterfoods.lib.RegisterHelper;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 

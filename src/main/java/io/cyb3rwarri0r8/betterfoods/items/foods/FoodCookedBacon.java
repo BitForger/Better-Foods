@@ -17,7 +17,7 @@ package io.cyb3rwarri0r8.betterfoods.items.foods;
 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import io.cyb3rwarri0r8.betterfoods.help.Reference;
+import io.cyb3rwarri0r8.betterfoods.lib.Reference;
 import io.cyb3rwarri0r8.betterfoods.main;
 import net.minecraft.item.ItemFood;
 

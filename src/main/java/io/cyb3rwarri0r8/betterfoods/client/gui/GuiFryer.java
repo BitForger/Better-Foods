@@ -19,7 +19,7 @@ package io.cyb3rwarri0r8.betterfoods.client.gui;
 
 import io.cyb3rwarri0r8.betterfoods.client.container.ContainerDeepFryer;
 import io.cyb3rwarri0r8.betterfoods.entity.TileEntityDeepFryer;
-import io.cyb3rwarri0r8.betterfoods.help.Reference;
+import io.cyb3rwarri0r8.betterfoods.lib.Reference;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.entity.player.InventoryPlayer;

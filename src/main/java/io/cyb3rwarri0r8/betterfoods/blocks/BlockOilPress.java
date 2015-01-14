@@ -20,7 +20,7 @@ package io.cyb3rwarri0r8.betterfoods.blocks;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import io.cyb3rwarri0r8.betterfoods.entity.TileEntityOilPress;
-import io.cyb3rwarri0r8.betterfoods.help.Reference;
+import io.cyb3rwarri0r8.betterfoods.lib.Reference;
 import io.cyb3rwarri0r8.betterfoods.main;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockContainer;
